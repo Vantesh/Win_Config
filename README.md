@@ -30,7 +30,7 @@ sudo chown -R <username> .
 ```
 
 ```bash
-cd /mnt/c/Users/<username>/Downloads/dotfiles/
+cd /mnt/c/Users/<username>/Downloads/Win_Config/
 chmod +x auto_config.sh
 ./auto_config.sh
 ```
@@ -47,4 +47,3 @@ Set-ExecutionPolicy Restricted
 
 - win_starship.toml -> C:\Users\<Username>\\.starship\starship.toml
 - starship.lua -> C:\Users\<Username>\AppData\Local\clink\starship.lua
-- winfetch.ps1 -> C:\Users\<Username>\\.config\winfetch\config.ps1
