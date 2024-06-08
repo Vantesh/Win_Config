@@ -68,7 +68,7 @@ sudo cat settings.json > /mnt/c/Users/$username/AppData/Local/Packages/Microsoft
 
 echo "----------------Setup FiraCode----------------"
 
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 
 echo "----------------Setup EZA  For KALI----------------"
 cd /home/$user/
