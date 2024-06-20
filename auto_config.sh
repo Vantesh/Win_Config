@@ -51,12 +51,6 @@ else
     sudo mkdir /mnt/c/Users/$username/.starship/ && sudo cat win_starship.toml > /mnt/c/Users/$username/.starship/starship.toml
 fi
 
-if [ -d "/mnt/c/Users/$username/.config/winfetch/" ]
-then
-    sudo cat winfetch.ps1 > /mnt/c/Users/$username/.config/winfetch/config.ps1
-else
-    sudo mkdir /mnt/c/Users/$username/.config/winfetch/ && sudo cat winfetch.ps1 > /mnt/c/Users/$username/.config/winfetch/config.ps1
-fi
 
 echo "----------------Setup Command Prompt----------------"
 sudo cat starship.lua > /mnt/c/Users/$username/AppData/Local/clink/starship.lua
