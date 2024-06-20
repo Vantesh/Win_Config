@@ -1,11 +1,11 @@
 
 Write-Host "----------------Installing Scoop----------------"
-iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+irm get.scoop.sh | iex
 
 Write-Host "--------------Installing touch command----------"
 scoop install touch
 clear
-Write-Host "--------------Installing touch command----------"
+Write-Host "--------------Installing terminal icons----------"
 install-Module -Name Terminal-Icons -Repository PSGallery
 
 Write-Host "----------------Installing All The Apps----------------"
@@ -21,7 +21,6 @@ winget install -e --id VideoLAN.VLC
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Telegram.TelegramDesktop
 winget install -e --id Starship.Starship
-winget install -e --id Google.NearbyShare
 scoop install winfetch
 
 Write-Host "-----------Forcing File Explorer to open to This PC instead of Quick Access--------------"
