@@ -8,7 +8,6 @@ format = """\
 [╭╴](238)$env_var\
 
 $all[╰─](238)$character"""
-
 # Change the default prompt characters
 [character]
 success_symbol = "[](238)"
