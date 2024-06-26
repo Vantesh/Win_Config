@@ -13,7 +13,6 @@ winget install -e --id Microsoft.VCRedist.2015+.x64
 winget install -e --id Microsoft.VCRedist.2013.x64
 winget install -e --id Microsoft.DotNet.Runtime.7
 winget install -e --id Microsoft.DirectX
-winget install -e --id 7zip.7zip
 winget install -e --id Git.Git
 winget install -e --id VideoLAN.VLC
 winget install -e --id Microsoft.VisualStudioCode
