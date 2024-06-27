@@ -19,5 +19,6 @@ winget install -e --id VideoLAN.VLC
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Telegram.TelegramDesktop
 winget install -e --id Starship.Starship
+winget install -e --id Discord.Discord
 Write-Host "-----------Forcing File Explorer to open to This PC instead of Quick Access--------------"
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 1 /f
