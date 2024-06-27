@@ -9,6 +9,7 @@ Write-Host "--------------Installing terminal icons----------"
 install-Module -Name Terminal-Icons -Repository PSGallery
 
 Write-Host "----------------Installing All The Apps----------------"
+winget install -e --id Python.Python.3.11
 winget install -e --id Microsoft.VCRedist.2015+.x64
 winget install -e --id Microsoft.VCRedist.2013.x64
 winget install -e --id Microsoft.DotNet.Runtime.7
