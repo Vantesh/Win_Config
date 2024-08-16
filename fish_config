@@ -110,11 +110,4 @@ set -x STARSHIP_DISTRO "$icon "
 set -x STARSHIP_CONFIG ~/.config/starship.toml
 starship init fish | source
 
-neofetch
 
-# Export PATH
-set PATH $PATH /home/rishav/.local/bin
-
-# Export Configs For Vagrant
-set -x VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH /mnt/c/Users/risha/
-set -x VAGRANT_WSL_ENABLE_WINDOWS_ACCESS 1
