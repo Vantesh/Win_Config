@@ -10,8 +10,8 @@ format = """\
 $all[╰─](238)$character"""
 # Change the default prompt characters
 [character]
-success_symbol = "[](238)"
-error_symbol = "[](bold red)"
+success_symbol = "[󰁔](238)"
+error_symbol = "[󰁔](bold red)"
 
 # Shows an icon that should be included by zshrc script based on the distribution or os
 #[env_var.STARSHIP_DISTRO]
@@ -21,9 +21,9 @@ error_symbol = "[](bold red)"
 
 # Shows the username
 [username]
-style_user = "green bold"
-style_root = "red bold"
-format = "者 [$user]($style) "
+style_user ="green bold"
+style_root ="red bold"
+format = " [$user]($style) "
 disabled = false  # disable in powershell
 show_always = true
 
@@ -38,7 +38,7 @@ truncation_symbol = ""
 truncate_to_repo = true # truncates directory to root folder if in github repo
 home_symbol = " ~"
 read_only_style = "197"
-read_only = "  "
+read_only = " 󰌾 "
 format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
